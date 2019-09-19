@@ -17,8 +17,10 @@ document.write("<br>");
 
 var text_1 = "Hey there, i am a javascript developer, and i live in vienna";
 
-var text_2 = text_1.slice(10,38);
-document.write(text_2);
+var text_2 = text_1.slice(12,38);
+var text_3 = text_1.slice(11,12);
+var text_4 = text_3.toUpperCase();
+document.write(text_4 + text_2 + ".");
 document.write("<br>");
 
 var start = ["apple", "banana", "kiwi"];
