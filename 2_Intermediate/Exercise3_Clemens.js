@@ -18,5 +18,9 @@ document.write("<br>");
 document.write(temp[6]);
 document.write("<br>");
 document.write(temp[7]);
+document.write("<br>");
+document.write("<br>");
+
+document.write(temp.join("<br>"));
 
 console.log(temp);
