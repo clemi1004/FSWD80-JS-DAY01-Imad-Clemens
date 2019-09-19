@@ -1,20 +1,26 @@
-//https://www.hostingadvice.com/how-to/javascript-add-to-array/
-var start=["apple", "banana", "kiwi"]
+var string_codefactory="mango/cherries/kiwi/grapes/pear/peach/orange/lemon"
+console.log(string_codefactory)
+var temp = new Array();
+temp = string_codefactory.split("/");
 
-//add orange to list
-start.push("orange")
-console .log(start)
+document.write(temp[0]);
+document.write("<br>");
+document.write(temp[1]);
+document.write("<br>");
+document.write(temp[2]);
+document.write("<br>");
+document.write(temp[3]);
+document.write("<br>");
+document.write(temp[4]);
+document.write("<br>");
+document.write(temp[5]);
+document.write("<br>");
+document.write(temp[6]);
+document.write("<br>");
+document.write(temp[7]);
+document.write("<br>");
+document.write("<br>");
 
-//remove orange from list
-start.pop()
-console .log(start)
+document.write(temp.join("<br>"));
 
-var start2=["monkey", "horse", "dog"]
-
-//sort alphabetically
-start2.sort()
-console .log(start2)
-
-//add at the beggining an item to list
-start2.unshift("cat")
-console .log(start2)
+console.log(temp);
